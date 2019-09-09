@@ -23,10 +23,10 @@
 ## countOfRain.py
 此脚本实现雨天计数的功能。将三张表依次遍历，记录“天气状况”中出现“雨”的个数。使用了csv库读取csv文件。
 实现效果如图：
-![GitHub](https://github.com/mlxzcax/data-analysis-of-Guangzhou-temperature/blob/master/image/image.png"GitHub,Social Coding")
+![GitHub](https://github.com/mlxzcax/data-analysis-of-Guangzhou-temperature/blob/master/image/image.png "GitHub,Social Coding")
 ## averageOfTemperature.py
 此脚本实现计算最高温和最低温的平均值。只要将“气温”列的两个整数识别并提出，分别求均值。此处用到了re.findall()用来在字符串中找到正则表达式所匹配的所有子串，并返回一个列表。
-![GitHub](https://github.com/mlxzcax/data-analysis-of-Guangzhou-temperature/blob/master/image/1568018817.png"GitHub,Social Coding")
+![GitHub](https://github.com/mlxzcax/data-analysis-of-Guangzhou-temperature/blob/master/image/1568018817.png "GitHub,Social Coding")
 ## graph.py
 在以上的代码基础上，使用matplotlib绘图。
-![GitHub](https://github.com/mlxzcax/data-analysis-of-Guangzhou-temperature/blob/master/image/myplot.png"GitHub,Social Coding")
+![GitHub](https://github.com/mlxzcax/data-analysis-of-Guangzhou-temperature/blob/master/image/myplot.png "GitHub,Social Coding")
