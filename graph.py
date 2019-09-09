@@ -22,8 +22,6 @@ for x in column1:
 
 x = np.arange(1, 32,1)
 
-#y = high
-#z=low
 plt.title("Changes of temperature in 2019.3")
 plt.xlabel("Date")
 plt.ylabel("Temperature(high);Temperature(low)")
@@ -32,6 +30,6 @@ plt.plot(x, low,"x-",label="Temperature(low)")
 
 plt.xticks(x)
 plt.grid(True)
-#plt.legend(bbox_to_anchor=(1.0, 1), loc=1, borderaxespad=0.)
+
 
 plt.show()
