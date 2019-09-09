@@ -11,6 +11,7 @@ while i<4:
         column1 = [row["气温"] for row in reader]
     #print(len(column1))
     for x in column1:
+        #找到所有的数字并放入数组
         temp=re.findall(r"\d+\.?\d*",x)
         high+=int(temp[0])
         low+=int(temp[1])
